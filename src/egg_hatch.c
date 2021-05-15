@@ -589,10 +589,10 @@ static void Task_EggHatchPlayBGM(u8 taskID)
         PlayRainStoppingSoundEffect();
     }
     if (gTasks[taskID].data[0] == 1)
-        PlayBGM(MUS_EVOLUTION_INTRO);
+        PlayBGM(HG_SEQ_GS_SHINKA);
     if (gTasks[taskID].data[0] > 60)
     {
-        PlayBGM(MUS_EVOLUTION);
+        //PlayBGM(MUS_EVOLUTION);
         DestroyTask(taskID);
         // UB: task is destroyed, yet the value is incremented
     }
@@ -648,7 +648,7 @@ static void CB2_EggHatch_1(void)
         GetMonNickname2(&gPlayerParty[sEggHatchData->eggPartyID], gStringVar1);
         StringExpandPlaceholders(gStringVar4, gText_HatchedFromEgg);
         EggHatchPrintMessage(sEggHatchData->windowId, gStringVar4, 0, 3, 0xFF);
-        PlayFanfare(MUS_EVOLVED);
+        PlayFanfare(HG_SEQ_ME_SHINKAOME);
         sEggHatchData->CB2_state++;
         PutWindowTilemap(sEggHatchData->windowId);
         CopyWindowToVram(sEggHatchData->windowId, 3);

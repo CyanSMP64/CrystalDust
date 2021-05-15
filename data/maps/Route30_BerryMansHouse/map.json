@@ -11,7 +11,7 @@
     "id": "MAP_ROUTE30_BERRY_MANS_HOUSE",
     "layout": "LAYOUT_HOUSE1",
     "map_type": "MAP_TYPE_INDOOR",
-    "music": "MUS_CHERRYGROVE",
+    "music": "HG_SEQ_GS_C_YOSHINO",
     "name": "Route30_BerryMansHouse",
     "object_events": [
         {

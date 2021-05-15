@@ -14,7 +14,7 @@ SurfPichu_GiveIfPossible: @ 8674D4C
 	vmessage sText_MysteryGiftEgg
 	waitmessage
 	waitbuttonpress
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	waitfanfare
 	release
 	end

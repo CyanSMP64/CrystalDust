@@ -45,7 +45,7 @@ Route35_GoldenrodGatehouse_EventScript_Officer_12:
 	compare VAR_RESULT, 0
 	goto_if_eq Route35_GoldenrodGatehouse_EventScript_Officer_15
 	textcolor MSG_COLOR_SYS
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	message Route35_GoldenrodGatehouse_EventScript_Officer_Text_4
 	waitmessage
 	waitfanfare

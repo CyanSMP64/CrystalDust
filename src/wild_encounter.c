@@ -1190,11 +1190,11 @@ static void ApplyMusicEncounterRateMod(u32 *encRate)
 {
     switch (GetCurrentMapMusic())
     {
-        case MUS_POKEMON_MARCH:
-        case MUS_UNOWN_RADIO:
+        case HG_SEQ_GS_RADIO_MARCH:
+        case HG_SEQ_GS_RADIO_UNKNOWN:
             *encRate *= 2;
             break;
-        case MUS_POKEMON_LULLABY:
+        case HG_SEQ_GS_RADIO_KOMORIUTA:
             *encRate /= 2;
             break;
     }

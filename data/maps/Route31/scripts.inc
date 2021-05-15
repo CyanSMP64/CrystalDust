@@ -63,7 +63,7 @@ Route31_EventScript_SleepyMan_9:
 	compare VAR_RESULT, GIFTMON_WRONG_MON
 	goto_if_eq Route31_EventScript_SleepyMan_18
 	textcolor MSG_COLOR_SYS
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	msgbox Route31_EventScript_SleepyMan_Text_7
 Route31_EventScript_SleepyMan_17:
 	setflag FLAG_GAVE_KENYA_TO_RANDYS_FRIEND
@@ -89,7 +89,7 @@ Route31_EventScript_SleepyMan_15:
 Route31_EventScript_SleepyMan_18:
 	msgbox Route31_EventScript_SleepyMan_Text_5
 	textcolor MSG_COLOR_SYS
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	message Route31_EventScript_SleepyMan_Text_6
 	goto Route31_EventScript_SleepyMan_17
 

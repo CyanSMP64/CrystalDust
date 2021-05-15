@@ -17,7 +17,7 @@ VioletCity_Earl::
 	goto_if_eq VioletCity_Earl_1
 	msgbox VioletCity_Earl_Text_2
 	closemessage
-	playbgm MUS_FOLLOW_ME, 0
+	playbgm HG_SEQ_GS_E_TSURETEKE2, 0
 	switch VAR_FACING
 	case DIR_SOUTH, VioletCity_Earl_6
 	case DIR_NORTH, VioletCity_Earl_7

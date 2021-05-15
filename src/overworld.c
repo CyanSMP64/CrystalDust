@@ -1184,9 +1184,9 @@ u16 GetLocationMusic(struct WarpData *warp)
 
     const u16 musicOverrideList[][3] =
     {
-        { MAP_GOLDENROD_CITY_POKEMON_CENTER_1F, FLAG_POKECOM_CENTER_ENABLED, MUS_POKECOM_CENTER },
-        { MAP_ROUTE35_NATIONAL_PARK_GATEHOUSE, FLAG_IN_BUG_CATCHING_CONTEST, MUS_BUG_CONTEST_PREP },
-        { MAP_ROUTE36_NATIONAL_PARK_GATEHOUSE, FLAG_IN_BUG_CATCHING_CONTEST, MUS_BUG_CONTEST_PREP },
+        { MAP_GOLDENROD_CITY_POKEMON_CENTER_1F, FLAG_POKECOM_CENTER_ENABLED, HG_SEQ_GS_POKESEN },
+        { MAP_ROUTE35_NATIONAL_PARK_GATEHOUSE, FLAG_IN_BUG_CATCHING_CONTEST, HG_SEQ_GS_TAIKAIMAE },
+        { MAP_ROUTE36_NATIONAL_PARK_GATEHOUSE, FLAG_IN_BUG_CATCHING_CONTEST, HG_SEQ_GS_TAIKAIMAE },
         { MAP_UNDEFINED, 0, 0 }
     };
 
@@ -1259,7 +1259,7 @@ void Overworld_PlaySpecialMapMusic(void)
 {
     u16 music = GetCurrLocationDefaultMusic();
 
-    if (music != MUS_UNOWN_RADIO && music != 0xFFFF)
+    if (music != HG_SEQ_GS_RADIO_UNKNOWN && music != 0xFFFF)
     {
         if (gSaveBlock1Ptr->savedMusic)
             music = gSaveBlock1Ptr->savedMusic;
@@ -1289,7 +1289,7 @@ static void TransitionMapMusic(void)
     {
         u16 newMusic = GetWarpDestinationMusic();
         u16 currentMusic = GetCurrentMapMusic();
-        if (newMusic != MUS_UNOWN_RADIO && newMusic != 0xFFFF)
+        if (newMusic != HG_SEQ_GS_RADIO_UNKNOWN && newMusic != 0xFFFF)
         {
             if (currentMusic == MUS_UNDERWATER || currentMusic == MUS_SURF)
                 return;
@@ -1316,7 +1316,7 @@ void Overworld_ChangeMusicToDefault(void)
 void Overworld_ChangeMusicTo(u16 newMusic)
 {
     u16 currentMusic = GetCurrentMapMusic();
-    if (currentMusic != newMusic && currentMusic != MUS_UNOWN_RADIO)
+    if (currentMusic != newMusic && currentMusic != HG_SEQ_GS_RADIO_UNKNOWN)
         FadeOutAndPlayNewMapMusic(newMusic, 8);
 }
 

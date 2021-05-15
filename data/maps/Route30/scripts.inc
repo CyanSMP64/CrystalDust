@@ -37,7 +37,7 @@ Route30_EventScript_DirectionsBoyPostEgg:
 Route30_EventScript_BattlingYoungster::
 	lock
 	waitse
-	playbgm MUS_VS_JOHTO_TRAINER, 0
+	playbgm HG_SEQ_GS_VS_TRAINER, 0
 	msgbox Route30_Text_BattlingYoungster_UseTackle
 	closemessage
 	delay 15

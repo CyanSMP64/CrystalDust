@@ -81,7 +81,7 @@ Std_ReceivedItem::
 	message 0x0
 	waitmessage
 	waitfanfare
-	compare VAR_0x8002, MUS_OBTAIN_ITEM
+	compare VAR_0x8002, HG_SEQ_ME_ITEM
 	call_if_eq EventScript_ReceivedItemWaitFanfare
 	putitemaway VAR_0x8000, VAR_0x8001
 	textcolor MSG_COLOR_PREV

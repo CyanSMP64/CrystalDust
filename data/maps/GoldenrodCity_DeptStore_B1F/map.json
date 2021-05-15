@@ -2,7 +2,7 @@
   "id": "MAP_GOLDENROD_CITY_DEPT_STORE_B1F",
   "name": "GoldenrodCity_DeptStore_B1F",
   "layout": "LAYOUT_GOLDENROD_CITY_DEPT_STORE_B1F",
-  "music": "MUS_GOLDENROD",
+  "music": "HG_SEQ_GS_C_KOGANE",
   "region_map_section": "MAPSEC_GOLDENROD_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

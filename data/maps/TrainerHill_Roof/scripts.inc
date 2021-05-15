@@ -22,7 +22,7 @@ TrainerHill_Roof_EventScript_GivePrize:: @ 8268FF2
 	case 2, TrainerHill_Roof_EventScript_CheckFinalTime
 TrainerHill_Roof_EventScript_ReceivePrize:: @ 8269020
 	msgbox TrainerHill_Roof_Text_HaveTheMostMarvelousGift, MSGBOX_DEFAULT
-	playfanfare MUS_LEVEL_UP
+	playfanfare HG_SEQ_ME_LVUP
 	message gText_ObtainedTheItem
 	waitfanfare
 	waitmessage

@@ -67,11 +67,11 @@ EventScript_NoRoomForItem:: @ 8271BA9
 	return
 
 EventScript_PlayFanfareObtainedItem:: @ 8271BAF
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	return
 
 EventScript_PlayFanfareObtainedTMHM:: @ 8271BB3
-	playfanfare MUS_OBTAIN_TMHM
+	playfanfare HG_SEQ_ME_WAZA
 	return
 
 Std_ObtainDecoration:: @ 8271BB7
@@ -89,7 +89,7 @@ EventScript_ObtainDecorationMessage:: @ 8271BC5
 	return
 
 EventScript_ObtainedDecor:: @ 8271BE0
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	message gText_ObtainedTheDecor
 	waitfanfare
 	msgbox gText_TheDecorWasTransferredToThePC, MSGBOX_DEFAULT

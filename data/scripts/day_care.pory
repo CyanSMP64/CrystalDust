@@ -101,7 +101,7 @@ script Route34_DayCare_EventScript_DaycareAcceptEgg {
         message("{PLAYER} received the EGG from\n"
                 "the DAY-CARE MAN.")
 	    textcolor(MSG_COLOR_PREV)
-        playfanfare(MUS_LEVEL_UP)
+        playfanfare(HG_SEQ_ME_LVUP)
         waitfanfare
         waitbuttonpress
         msgbox("Take good care of it.", MSGBOX_DEFAULT)

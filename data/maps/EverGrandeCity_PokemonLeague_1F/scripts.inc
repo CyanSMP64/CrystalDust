@@ -68,7 +68,7 @@ EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard:: @ 8229636
 	applymovement LOCALID_GUARD_2, EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay
 	waitmovement 0
 	delay 10
-	playfanfare MUS_OBTAIN_BADGE
+	playfanfare HG_SEQ_ME_BADGE
 	message EverGrandeCity_PokemonLeague_1F_Text_GoForth
 	waitmessage
 	waitfanfare

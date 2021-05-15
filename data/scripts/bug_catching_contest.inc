@@ -78,10 +78,10 @@ BugCatchingContest_EventScript_Officer_EnterContest_1:
 	compare VAR_RESULT, 1
 	goto_if_ne BugCatchingContest_EventScript_Officer_EnterContest_8
 BugCatchingContest_EventScript_Officer_EnterContest_7:
-	playbgm MUS_BUG_CONTEST_PREP, 0
+	playbgm HG_SEQ_GS_TAIKAIMAE, 0
 	msgbox BugCatchingContest_EventScript_Officer_EnterContest_Text_4
 	textcolor MSG_COLOR_SYS
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	message BugCatchingContest_EventScript_Officer_EnterContest_Text_5
 	waitfanfare
 	textcolor MSG_COLOR_PREV

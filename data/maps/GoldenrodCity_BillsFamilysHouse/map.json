@@ -2,7 +2,7 @@
   "id": "MAP_GOLDENROD_CITY_BILLS_FAMILYS_HOUSE",
   "name": "GoldenrodCity_BillsFamilysHouse",
   "layout": "LAYOUT_HOUSE1",
-  "music": "MUS_GOLDENROD",
+  "music": "HG_SEQ_GS_C_KOGANE",
   "region_map_section": "MAPSEC_GOLDENROD_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

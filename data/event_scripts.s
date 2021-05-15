@@ -692,13 +692,13 @@ Common_EventScript_SetAbnormalWeather:: @ 827207A
 	return
 
 Common_EventScript_PlayGymBadgeFanfare:: @ 827207E
-	playfanfare MUS_OBTAIN_BADGE
+	playfanfare HG_SEQ_ME_BADGE
 	waitfanfare
 	return
 
 Common_EventScript_OutOfCenterPartyHeal:: @ 8272083
 	fadescreen FADE_TO_BLACK
-	playfanfare MUS_HEAL
+	playfanfare HG_SEQ_ME_ASA
 	waitfanfare
 	special HealPlayerParty
 	fadescreen FADE_FROM_BLACK
@@ -799,7 +799,7 @@ Common_EventScript_NameReceivedPartyMon:: @ 82723DD
 
 Common_EventScript_PlayerHandedOverTheItem:: @ 82723E4
 	bufferitemname 0, VAR_0x8004
-	playfanfare MUS_OBTAIN_TMHM
+	playfanfare HG_SEQ_ME_WAZA
 	message gText_PlayerHandedOverTheItem
 	waitmessage
 	waitfanfare

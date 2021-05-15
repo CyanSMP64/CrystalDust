@@ -19,7 +19,7 @@
     "id": "MAP_AZALEA_TOWN_CHARCOAL_KILN",
     "layout": "LAYOUT_HOUSE1",
     "map_type": "MAP_TYPE_INDOOR",
-    "music": "MUS_AZALEA",
+    "music": "HG_SEQ_GS_T_HIWADA",
     "name": "AzaleaTown_CharcoalKiln",
     "object_events": [
         {

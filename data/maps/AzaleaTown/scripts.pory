@@ -57,8 +57,8 @@ script AzaleaTown_EventScript_RivalTrigger_All {
         waitmovement(0)
     }
 
-    playbgm(MUS_ENCOUNTER_RIVAL, 0)
-	savebgm(MUS_RIVAL_EXIT)
+    playbgm(HG_SEQ_GS_E_RIVAL1, 0)
+	savebgm(HG_SEQ_GS_E_RIVAL2)
     msgbox("…Tell me something.\p"
            "Is it true that TEAM ROCKET has\n"
            "returned?\p"

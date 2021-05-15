@@ -68,7 +68,7 @@ GoldenrodCity_BillsFamilysHouse_EventScript_Bill_PartyFull::
 
 GoldenrodCity_BillsFamilysHouse_EventScript_ReceivedEeveeFanfare::
 	bufferspeciesname 0, SPECIES_EEVEE
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	message GoldenrodCity_BillsFamilysHouse_EventScript_ReceivedEeveeFanfare_Text_0
 	waitmessage
 	waitfanfare
@@ -108,7 +108,7 @@ GoldenrodCity_BillsFamilysHouse_EventScript_BillsSister_2:
 GoldenrodCity_BillsFamilysHouse_EventScript_BillsSister_5:
 	waitse
 	setflag FLAG_PHONE_CARD_BILL
-	playfanfare MUS_REGISTER_PHONE
+	playfanfare HG_SEQ_ME_POKEGEAR_REGIST
 	textcolor MSG_COLOR_SYS
 	msgbox GoldenrodCity_BillsFamilysHouse_EventScript_BillsSister_Text_1
 	waitfanfare

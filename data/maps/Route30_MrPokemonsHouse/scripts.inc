@@ -32,13 +32,13 @@ Route30_MrPokemonsHouse_MapScript_MrPokemonIntro:
 	waitmovement 0
 	msgbox Route30_MrPokemonsHouse_Text_IfMyAssumption
 	closemessage
-	playbgm MUS_OAKS_THEME, 0
+	playbgm HG_SEQ_GS_OHKIDO, 0
 	applymovement OBJ_EVENT_ID_PLAYER, Route30_MrPokemonsHouse_Movement_PauseThenTurnRight
 	applymovement 2, Route30_MrPokemonsHouse_Movement_OakToPlayer
 	waitmovement 0
 	msgbox Route30_MrPokemonsHouse_Text_SoYourePlayer
 	textcolor MSG_COLOR_SYS
-	playfanfare MUS_RG_OBTAIN_KEY_ITEM
+	playfanfare HG_SEQ_ME_KEYITEM
 	message Route30_MrPokemonsHouse_Text_PlayerReceivedPokedex
 	waitmessage
 	waitfanfare

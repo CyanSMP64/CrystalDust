@@ -1,6 +1,6 @@
 	.equiv ID_NUMBER, 0x68736d53
 
-	.equiv PCM_DMA_BUF_SIZE, 1584
+	.equiv PCM_DMA_BUF_SIZE, 0x620
 
 	.equiv TONEDATA_TYPE_CGB, 0x07
 	.equiv TONEDATA_TYPE_FIX, 0x08
@@ -41,7 +41,7 @@
 	struct_field o_SoundInfo_plynote, 4
 	struct_field o_SoundInfo_ExtVolPit, 4
 	struct_field o_SoundInfo_gap2, 16
-	struct_field o_SoundInfo_chans, 768
+	struct_field o_SoundInfo_chans, 960
 	struct_field o_SoundInfo_pcmBuffer, PCM_DMA_BUF_SIZE * 2
 	struct_field SoundInfo_size, 0
 

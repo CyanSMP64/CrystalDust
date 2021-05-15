@@ -105,11 +105,11 @@ script BugCatchingContest_EventScript_Officer_EnterContest {
                 setflag(FLAG_LEFT_MONS_WITH_CONTEST_OFFICER)
             }
     
-            playbgm(MUS_BUG_CONTEST_PREP, 0)
+            playbgm(HG_SEQ_GS_TAIKAIMAE, 0)
             msgbox("Here are the PARK BALLS for the\n"
                    "Contest.")
             textcolor(MSG_COLOR_SYS)
-            playfanfare(MUS_OBTAIN_ITEM)
+            playfanfare(HG_SEQ_ME_ITEM)
             message("{PLAYER} received 20 PARK BALLS\n"
                     "from the CONTEST HELPER.")
             waitfanfare

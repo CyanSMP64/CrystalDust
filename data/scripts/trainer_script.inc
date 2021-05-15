@@ -3,7 +3,7 @@ Std_RegisteredInMatchCall:: @ 82742C9
 	buffertrainername 1, VAR_0x8000
 	closemessage
 	delay 30
-	playfanfare MUS_REGISTER_PHONE
+	playfanfare HG_SEQ_ME_POKEGEAR_REGIST
 	msgbox gText_RegisteredTrainerinPokeNav, MSGBOX_DEFAULT
 	waitfanfare
 	closemessage

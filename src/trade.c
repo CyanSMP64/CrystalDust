@@ -570,7 +570,7 @@ static void CB2_CreateTradeMenu(void)
         sTradeMenuData->bg3hofs = 0;
         SetTradePartyMonsVisible();
         gMain.state++;
-        PlayBGM(MUS_OAKS_THEME);
+        PlayBGM(HG_SEQ_GS_OHKIDO);
         break;
     case 15:
         SetTradePartyLiveStatuses(TRADE_PARTNER);
@@ -3290,7 +3290,7 @@ static bool8 AnimateTradeSequenceCable(void)
         gSprites[sTradeData->pokePicSpriteIdxs[TRADE_PLAYER]].pos2.y = gMonFrontPicCoords[sTradeData->monSpecies[TRADE_PLAYER]].y_offset;
         sTradeData->state++;
         sTradeData->cachedMapMusic = GetCurrentMapMusic();
-        PlayNewMapMusic(MUS_EVOLUTION);
+        PlayNewMapMusic(HG_SEQ_GS_SHINKA);
         break;
     case 1:
         if (sTradeData->bg2hofs > 0)
@@ -3705,7 +3705,7 @@ static bool8 AnimateTradeSequenceCable(void)
     case 68:
         if (++sTradeData->timer == 10)
         {
-            PlayFanfare(MUS_EVOLVED);
+            PlayFanfare(HG_SEQ_ME_SHINKAOME);
         }
         if (sTradeData->timer == 250)
         {
@@ -3782,7 +3782,7 @@ static bool8 AnimateTradeSequenceWireless(void)
         gSprites[sTradeData->pokePicSpriteIdxs[TRADE_PLAYER]].pos2.y = gMonFrontPicCoords[sTradeData->monSpecies[TRADE_PLAYER]].y_offset;
         sTradeData->state++;
         sTradeData->cachedMapMusic = GetCurrentMapMusic();
-        PlayNewMapMusic(MUS_EVOLUTION);
+        PlayNewMapMusic(HG_SEQ_GS_SHINKA);
         break;
     case 1:
         if (sTradeData->bg2hofs > 0)
@@ -4220,7 +4220,7 @@ static bool8 AnimateTradeSequenceWireless(void)
     case 68:
         if (++sTradeData->timer == 10)
         {
-            PlayFanfare(MUS_EVOLVED);
+            PlayFanfare(HG_SEQ_ME_SHINKAOME);
         }
         if (sTradeData->timer == 250)
         {

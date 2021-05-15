@@ -2,7 +2,7 @@
   "id": "MAP_MT_PYRE_EXTERIOR",
   "name": "MtPyre_Exterior",
   "layout": "LAYOUT_MT_PYRE_EXTERIOR",
-  "music": "MUS_NATIONAL_PARK",
+  "music": "HG_SEQ_GS_D_KOUEN",
   "region_map_section": "MAPSEC_MT_MORTAR",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -60,7 +60,7 @@ VioletCity_PokemonCenter_1F_EventScript_Aide_6:
 VioletCity_PokemonCenter_1F_EventScript_Aide_9:
 	textcolor MSG_COLOR_SYS
 	setflag FLAG_GOT_ELMS_EGG
-	playfanfare MUS_OBTAIN_EGG
+	playfanfare HG_SEQ_ME_TAMAGO_GET
 	message VioletCity_PokemonCenter_1F_EventScript_Aide_Text_2
 	waitfanfare
 	giveegg SPECIES_TOGEPI
@@ -85,7 +85,7 @@ VioletCity_PokemonCenter_1F_EventScript_Aide_12:
 VioletCity_PokemonCenter_1F_EventScript_Aide_16:
 	msgbox VioletCity_PokemonCenter_1F_EventScript_Aide_Text_4
 	textcolor MSG_COLOR_SYS
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	message VioletCity_PokemonCenter_1F_EventScript_Aide_Text_5
 	waitmessage
 	waitfanfare

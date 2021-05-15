@@ -41,24 +41,24 @@ static void Task_DuckBGMForPokemonCry(u8 taskId);
 static void RestoreBGMVolumeAfterPokemonCry(void);
 
 static const struct Fanfare sFanfares[] = {
-    { MUS_LEVEL_UP,                  80 },
-    { MUS_OBTAIN_ITEM,              160 },
-    { MUS_EVOLVED,                  220 },
-    { MUS_OBTAIN_TMHM,              220 },
-    { MUS_HEAL,                     160 },
-    { MUS_OBTAIN_BADGE,             340 },
-    { MUS_MOVE_DELETED,             180 },
-    { MUS_OBTAIN_EGG,               160 },
-    { MUS_PKMNCHANNEL_INTERLUDE,    430 },
+    { HG_SEQ_ME_LVUP,                80 },
+    { HG_SEQ_ME_ITEM,               160 },
+    { HG_SEQ_ME_SHINKAOME,          220 },
+    { HG_SEQ_ME_WAZA,               220 },
+    { HG_SEQ_ME_ASA,                160 },
+    { HG_SEQ_ME_BADGE,              340 },
+    { HG_SEQ_ME_WASURE,             180 },
+    { HG_SEQ_ME_TAMAGO_GET,         160 },
+    { HG_SEQ_GS_RADIO_JINGLE,       480 },
     { MUS_SLOTS_JACKPOT,            250 },
     { MUS_SLOTS_WIN,                150 },
     { MUS_TOO_BAD,                  160 },
     { MUS_RG_POKE_FLUTE,            450 },
-    { MUS_RG_OBTAIN_KEY_ITEM,       170 },
-    { MUS_RG_DEX_RATING,            196 },
+    { HG_SEQ_ME_KEYITEM,            170 },
+    { HG_SEQ_ME_HYOUKA2,            196 },
     { MUS_OBTAIN_B_POINTS,          313 },
     { MUS_OBTAIN_SYMBOL,            318 },
-    { MUS_REGISTER_PHONE,           180 },
+    { HG_SEQ_ME_POKEGEAR_REGIST,    180 },
 };
 
 #define CRY_VOLUME  120 // was 125 in R/S

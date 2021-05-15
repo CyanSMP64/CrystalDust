@@ -168,7 +168,7 @@ Route36_NationalParkGatehouse_EventScript_AwardsCeremony::
 	message Route36_NationalParkGatehouse_EventScript_AwardsCeremony_Text_2
 	waitmessage
 Route36_NationalParkGatehouse_EventScript_AwardsCeremony_1:
-	playfanfare MUS_EVOLVED
+	playfanfare HG_SEQ_ME_SHINKAOME
 	waitfanfare
 	waitbuttonpress
 	setvar VAR_0x8004, 1

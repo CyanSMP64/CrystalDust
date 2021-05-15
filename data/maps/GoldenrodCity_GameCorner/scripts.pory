@@ -307,7 +307,7 @@ script GoldenrodCity_GameCorner_EventScript_MonClerk_ConfirmPrize {
                     msgbox(GoldenrodCity_GameCorner_EventScript_PrizeVendorHereYouGo)
                     textcolor(MSG_COLOR_SYS)
                     bufferspeciesname(0, VAR_TEMP_1)
-                    playfanfare(MUS_LEVEL_UP)
+                    playfanfare(HG_SEQ_ME_LVUP)
                     message(gText_PlayerObtainedTheMon)
                     waitmessage
                     waitfanfare

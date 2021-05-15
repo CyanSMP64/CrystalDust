@@ -1798,7 +1798,7 @@
 	.endm
 
 	.macro givetmhm_msg msg:req, item:req
-	giveitem_msg \msg, \item, 1, MUS_OBTAIN_TMHM
+	giveitem_msg \msg, \item, 1, HG_SEQ_ME_WAZA
 	.endm
 
 	.macro msgreceiveditem msg:req, item:req, amount=1, fanfare=MUS_OBTAIN_ITEM

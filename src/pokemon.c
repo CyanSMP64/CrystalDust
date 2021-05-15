@@ -6329,9 +6329,9 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_TEAM_ROCKET:
         case TRAINER_CLASS_AQUA_ADMIN:
         case TRAINER_CLASS_MAGMA_ADMIN:
-            return MUS_VS_ROCKET;
+            return HG_SEQ_GS_VS_ROCKET;
         case TRAINER_CLASS_LEADER:
-            return MUS_VS_JOHTO_LEADER;
+            return HG_SEQ_GS_VS_GYMREADER;
         case TRAINER_CLASS_CHAMPION:
             return MUS_VS_CHAMPION;
         case TRAINER_CLASS_PKMN_TRAINER_3:
@@ -6340,7 +6340,7 @@ u16 GetBattleBGM(void)
                 return MUS_VS_RIVAL;
             if (!StringCompare(gTrainers[gTrainerBattleOpponent_A].trainerName, gText_BattleWallyName))
                 return MUS_VS_JOHTO_TRAINER;*/
-            return MUS_VS_RIVAL;
+            return HG_SEQ_GS_VS_RIVAL;
         case TRAINER_CLASS_ELITE_FOUR:
             return MUS_VS_ELITE_FOUR;
         case TRAINER_CLASS_SALON_MAIDEN:
@@ -6352,11 +6352,11 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_PYRAMID_KING:
             return MUS_VS_FRONTIER_BRAIN;
         default:
-            return MUS_VS_JOHTO_TRAINER;
+            return HG_SEQ_GS_VS_TRAINER;
         }
     }
     else
-        return MUS_VS_JOHTO_WILD;
+        return HG_SEQ_GS_VS_NORAPOKE;
 }
 
 void PlayBattleBGM(void)

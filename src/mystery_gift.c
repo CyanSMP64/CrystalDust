@@ -1023,7 +1023,7 @@ static bool32 PrintMGSuccessMessage(u8 * state, const u8 * arg1, u16 * arg2)
         {
             AddTextPrinterToWindow1(arg1);
         }
-        PlayFanfare(MUS_OBTAIN_ITEM);
+        PlayFanfare(HG_SEQ_ME_ITEM);
         *arg2 = 0;
         (*state)++;
         break;

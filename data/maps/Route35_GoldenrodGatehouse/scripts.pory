@@ -46,7 +46,7 @@ script Route35_GoldenrodGatehouse_EventScript_Officer {
             else
             {
                 textcolor(MSG_COLOR_SYS)
-                playfanfare(MUS_OBTAIN_ITEM)
+                playfanfare(HG_SEQ_ME_ITEM)
                 message("{PLAYER} received a POKéMON with MAIL.")
                 waitmessage
                 waitfanfare

@@ -48,16 +48,16 @@
 
 static const u16 sRadioChannelSongs[] = 
 {
-    [OAKS_POKEMON_TALK] = MUS_OAKS_LAB,
-    [POKEDEX_SHOW] = MUS_POKE_CENTER,
+    [OAKS_POKEMON_TALK] = HG_SEQ_GS_OHKIDO_RABO,
+    [POKEDEX_SHOW] = HG_SEQ_GS_POKESEN,
     [POKEMON_MUSIC] = MUS_DUMMY,
-    [LUCKY_CHANNEL] = MUS_GAME_CORNER,
-    [BUENAS_PASSWORD] = MUS_BUENAS_THEME,
+    [LUCKY_CHANNEL] = HG_SEQ_GS_GAME,
+    [BUENAS_PASSWORD] = HG_SEQ_GS_AIKOTOBA,
     [PLACES_AND_PEOPLE] = MUS_PEWTER,
-    [LETS_ALL_SING] = MUS_POKEMON_MARCH,
-    [ROCKET_RADIO] = MUS_ROCKET_TAKEOVER,
+    [LETS_ALL_SING] = HG_SEQ_GS_RADIO_MARCH,
+    [ROCKET_RADIO] = HG_SEQ_GS_SENKYO,
     [POKE_FLUTE_RADIO] = MUS_POKE_FLUTE_RADIO,
-    [UNOWN_RADIO] = MUS_UNOWN_RADIO,
+    [UNOWN_RADIO] = HG_SEQ_GS_RADIO_UNKNOWN,
     [EVOLUTION_RADIO] = MUS_EVOLUTION_RADIO
 };
 
@@ -136,10 +136,10 @@ static void NextRadioLine(u8 taskId, u8 nextLine, const u8 *lineToPrint, bool8 s
 
 void PlayPokemonMusic(void)
 {
-    u16 song = MUS_POKEMON_MARCH;  // Sunday, Tuesday, Thursday, Saturday
+    u16 song = HG_SEQ_GS_RADIO_MARCH;  // Sunday, Tuesday, Thursday, Saturday
     RtcCalcLocalTime();
     if (gLocalTime.dayOfWeek & 1)   // Monday, Wednesday, Friday
-        song = MUS_POKEMON_LULLABY;
+        song = HG_SEQ_GS_RADIO_KOMORIUTA;
     PlayAndSaveMusic(song);
 }
 
@@ -518,7 +518,7 @@ void Task_PlayRadioShow(u8 taskId)
     case PKMN_CHANNEL_INTERLUDE_2:
         FillWindowPixelBuffer(tWindowId, 0x11);
         AddTextPrinterParameterized5(tWindowId, 2, gText_PokemonChannel1, 0, 1, 0, NULL, 1, 1);
-        PlayFanfare(MUS_PKMNCHANNEL_INTERLUDE);
+        PlayFanfare(HG_SEQ_GS_RADIO_JINGLE);
         tCurrentLine = tCurrentLine + 1;
         break;
     case PKMN_CHANNEL_INTERLUDE_3:

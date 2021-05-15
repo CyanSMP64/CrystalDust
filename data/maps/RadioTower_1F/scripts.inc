@@ -58,7 +58,7 @@ RadioTower_1F_EventScript_LuckyNumberMan_7:
 	playse SE_PC_ON
 	waitse
 	message RadioTower_1F_EventScript_LuckyNumberMan_Text_3
-	playfanfare MUS_RG_DEX_RATING
+	playfanfare HG_SEQ_ME_HYOUKA2
 	waitfanfare
 	special PickLotteryCornerTicket
 	waitmessage
@@ -222,7 +222,7 @@ RadioTower_1F_EventScript_RadioCardWoman_17:
 	waitse
 	msgbox RadioTower_1F_EventScript_RadioCardWoman_Text_6
 	textcolor MSG_COLOR_BLACK
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	setflag FLAG_SYS_HAS_RADIO_CARD
 	message RadioTower_1F_EventScript_RadioCardWoman_Text_7
 	waitfanfare

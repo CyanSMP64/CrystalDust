@@ -1506,34 +1506,34 @@ void SetUpTrainerEncounterMusic(void)
         switch (GetTrainerEncounterMusicId(trainerId))
         {
         case TRAINER_ENCOUNTER_MUSIC_MALE:
-            music = MUS_ENCOUNTER_MALE;
+            music = HG_SEQ_GS_EYE_J_SHOUNEN;
             break;
         case TRAINER_ENCOUNTER_MUSIC_FEMALE:
-            music = MUS_ENCOUNTER_FEMALE;
+            music = HG_SEQ_GS_EYE_J_SHOUJO;
             break;
         case TRAINER_ENCOUNTER_MUSIC_LASS:
-            music = MUS_ENCOUNTER_LASS;
+            music = HG_SEQ_GS_EYE_K_SHOUJO;
             break;
         case TRAINER_ENCOUNTER_MUSIC_SAGE:
-            music = MUS_ENCOUNTER_SAGE;
+            music = HG_SEQ_GS_EYE_BOUZU;
             break;
         case TRAINER_ENCOUNTER_MUSIC_OFFICER:
-            music = MUS_ENCOUNTER_OFFICER;
+            music = HG_SEQ_GS_EYE_K_SHOUNEN;
             break;
         case TRAINER_ENCOUNTER_MUSIC_ROCKET:
-            music = MUS_ENCOUNTER_ROCKET;
+            music = HG_SEQ_GS_EYE_ROCKET;
             break;
         case TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR:
             music = MUS_ENCOUNTER_ELITE_FOUR;
             break;
         case TRAINER_ENCOUNTER_MUSIC_FISHERMAN:
-            music = MUS_ENCOUNTER_FISHERMAN;
+            music = HG_SEQ_GS_EYE_K_AYASHII;
             break;
         case TRAINER_ENCOUNTER_MUSIC_KIMONO:
             music = MUS_ENCOUNTER_KIMONO;
             break;
         default:
-            music = MUS_ENCOUNTER_SUSPICIOUS;
+            music = HG_SEQ_GS_EYE_J_AYASHII;
         }
         PlayNewMapMusic(music);
     }

@@ -233,7 +233,7 @@ GoldenrodCity_PokemonCenter_1F_EventScript_TradeCounterNurse_5:
 GoldenrodCity_PokemonCenter_1F_EventScript_TradeCounterNurse_8:
 	msgbox GoldenrodCity_PokemonCenter_1F_EventScript_TradeCounterNurse_Text_2
 	textcolor MSG_COLOR_SYS
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	message GoldenrodCity_PokemonCenter_1F_EventScript_TradeCounterNurse_Text_3
 	waitmessage
 	waitfanfare
@@ -259,7 +259,7 @@ GoldenrodCity_PokemonCenter_1F_EventScript_TradeCounterNurse_8:
 	msgbox GoldenrodCity_PokemonCenter_1F_EventScript_TradeCounterNurse_Text_5
 	textcolor MSG_COLOR_SYS
 	setflag FLAG_GOT_ODD_EGG
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	message GoldenrodCity_PokemonCenter_1F_EventScript_TradeCounterNurse_Text_6
 	waitfanfare
 	special GiveOddEgg

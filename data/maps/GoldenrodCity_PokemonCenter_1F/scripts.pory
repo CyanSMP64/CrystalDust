@@ -301,7 +301,7 @@ script GoldenrodCity_PokemonCenter_1F_EventScript_TradeCounterNurse {
                 msgbox("Great!\n"
                        "Let's get started.")
                 textcolor(MSG_COLOR_SYS)
-                playfanfare(MUS_OBTAIN_ITEM)
+                playfanfare(HG_SEQ_ME_ITEM)
                 message("{PLAYER} handed the EGG TICKET to\n"
                         "the receptionist.")
                 waitmessage
@@ -333,7 +333,7 @@ script GoldenrodCity_PokemonCenter_1F_EventScript_TradeCounterNurse {
                        "Please raise it with loving care.")
                 textcolor(MSG_COLOR_SYS)
                 setflag(FLAG_GOT_ODD_EGG)
-                playfanfare(MUS_OBTAIN_ITEM)
+                playfanfare(HG_SEQ_ME_ITEM)
                 message("{PLAYER} received the ODD EGG\n"
                         "from the receptionist.")
                 waitfanfare

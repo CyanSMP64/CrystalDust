@@ -11,7 +11,7 @@
     "id": "MAP_VIOLET_CITY_HOUSE1",
     "layout": "LAYOUT_HOUSE2",
     "map_type": "MAP_TYPE_INDOOR",
-    "music": "MUS_VIOLET",
+    "music": "HG_SEQ_GS_C_KIKYOU",
     "name": "VioletCity_House1",
     "object_events": [
         {

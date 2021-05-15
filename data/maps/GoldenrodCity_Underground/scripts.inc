@@ -181,7 +181,7 @@ GoldenrodCity_Underground_EventScript_OlderHaircutBrother_19:
 	hidemoneybox
 	fadescreen FADE_TO_BLACK
 	special OlderHaircutBrother
-	playfanfare MUS_HEAL
+	playfanfare HG_SEQ_ME_ASA
 	waitfanfare
 	fadescreen FADE_FROM_BLACK
 	msgbox GoldenrodCity_Underground_EventScript_OlderHaircutBrother_Text_4
@@ -251,7 +251,7 @@ GoldenrodCity_Underground_EventScript_YoungerHaircutBrother_19:
 	hidemoneybox
 	fadescreen FADE_TO_BLACK
 	special YoungerHaircutBrother
-	playfanfare MUS_HEAL
+	playfanfare HG_SEQ_ME_ASA
 	waitfanfare
 	fadescreen FADE_FROM_BLACK
 	msgbox GoldenrodCity_Underground_EventScript_YoungerHaircutBrother_Text_4

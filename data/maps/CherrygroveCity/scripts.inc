@@ -22,7 +22,7 @@ CherrygroveCity_EventScript_GuideGent::
 	goto_if_eq CherrygroveCity_EventScript_GuideGent_Rejected
 	msgbox CherrygroveCity_Text_GuideGent_OkayThen
 	closemessage
-	playbgm MUS_FOLLOW_ME, 0
+	playbgm HG_SEQ_GS_E_TSURETEKE2, 0
 	compare VAR_FACING, DIR_EAST
 	call_if_eq CherrygroveCity_EventScript_GuideGentFromLeft
 	compare VAR_FACING, DIR_NORTH
@@ -54,7 +54,7 @@ CherrygroveCity_EventScript_GuideGent::
 	turnobject OBJ_EVENT_ID_PLAYER, 4
 	msgbox CherrygroveCity_Text_GuideGent_ItsMyHouse
 	textcolor MSG_COLOR_BLACK
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	setflag FLAG_SYS_HAS_MAP_CARD
 	message CherrygroveCity_Text_GuideGent_GetMapCard1
 	waitfanfare
@@ -297,8 +297,8 @@ CherrygroveCity_EventScript_RivalMain:
 	waitmovement 0
 	applymovement 2, CherrygroveCity_Movement_RivalToPlayer
 	waitmovement 0
-	playbgm MUS_ENCOUNTER_RIVAL, 0
-	savebgm MUS_RIVAL_EXIT
+	playbgm HG_SEQ_GS_E_RIVAL1, 0
+	savebgm HG_SEQ_GS_E_RIVAL2
 	msgbox CherrygroveCity_Text_Rival_GotAMon
 	setvar VAR_LAST_TALKED, 2
 	compare VAR_STARTER_MON, 0

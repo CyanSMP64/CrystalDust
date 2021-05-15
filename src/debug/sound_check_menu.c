@@ -389,7 +389,7 @@ static bool8 Task_ProcessSoundCheckMenuInput(u8 taskId) // sub_080E8688
             if (gTasks[taskId].tBgmIndex > 0)
                 gTasks[taskId].tBgmIndex--;
             else
-                gTasks[taskId].tBgmIndex = (PH_NURSE_SOLO - (MUS_LITTLEROOT_TEST - 1));
+                gTasks[taskId].tBgmIndex = (HG_SEQ_GS_WINBRAIN - (MUS_LITTLEROOT_TEST - 1));
         }
         return TRUE;
     }
@@ -404,7 +404,7 @@ static bool8 Task_ProcessSoundCheckMenuInput(u8 taskId) // sub_080E8688
         }
         else
         {
-            if (gTasks[taskId].tBgmIndex < (PH_NURSE_SOLO - (MUS_LITTLEROOT_TEST - 1)))
+            if (gTasks[taskId].tBgmIndex < (HG_SEQ_GS_WINBRAIN - (MUS_LITTLEROOT_TEST - 1)))
                 gTasks[taskId].tBgmIndex++;
             else
                 gTasks[taskId].tBgmIndex = 0;
@@ -1277,7 +1277,8 @@ static void DestroyWindow(u8 windowId) // sub_080E9750
     X(PH_CURE_SOLO, "PH-CURE-SOLO") \
     X(PH_NURSE_BLEND, "PH-NURSE-BLEND") \
     X(PH_NURSE_HELD, "PH-NURSE-HELD") \
-    X(PH_NURSE_SOLO, "PH-NURSE-SOLO")
+    X(PH_NURSE_SOLO, "PH-NURSE-SOLO") \
+    X(HG_SEQ_GS_VS_NORAPOKE, "HG-SEQ-GS-VS-NORAPOKE")
 
 #define SOUND_LIST_SE \
     X(SE_STOP, "STOP") \

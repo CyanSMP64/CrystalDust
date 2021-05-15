@@ -152,7 +152,7 @@ script GoldenrodCity_Underground_EventScript_OlderHaircutBrother {
 						hidemoneybox
 						fadescreen(FADE_TO_BLACK)
 						special(OlderHaircutBrother)
-						playfanfare(MUS_HEAL)
+						playfanfare(HG_SEQ_ME_ASA)
 						waitfanfare
 						fadescreen(FADE_FROM_BLACK)
 						msgbox("There!\n"
@@ -231,7 +231,7 @@ script GoldenrodCity_Underground_EventScript_YoungerHaircutBrother {
 						hidemoneybox
 						fadescreen(FADE_TO_BLACK)
 						special(YoungerHaircutBrother)
-						playfanfare(MUS_HEAL)
+						playfanfare(HG_SEQ_ME_ASA)
 						waitfanfare
 						fadescreen(FADE_FROM_BLACK)
 						msgbox("There we go!\n"

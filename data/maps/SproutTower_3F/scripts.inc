@@ -41,7 +41,7 @@ SproutTower_3F_EventScript_RivalScene::
 	waitmovement 0
 	applymovement 7, Common_Movement_Delay48
 	waitmovement 0
-	playbgm MUS_ENCOUNTER_RIVAL, 0
+	playbgm HG_SEQ_GS_E_RIVAL1, 0
 	applymovement 7, SproutTower_3F_Movement_RivalToPlayer
 	waitmovement 0
 	msgbox SproutTower_3F_EventScript_RivalScene_Text_1

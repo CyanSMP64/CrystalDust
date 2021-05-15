@@ -2,7 +2,7 @@
   "id": "MAP_NATIONAL_PARK_BUG_CATCHING_CONTEST",
   "name": "NationalPark_BugCatchingContest",
   "layout": "LAYOUT_NATIONAL_PARK",
-  "music": "MUS_BUG_CATCHING_CONTEST",
+  "music": "HG_SEQ_GS_TAIKAI",
   "region_map_section": "MAPSEC_NATIONAL_PARK",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",

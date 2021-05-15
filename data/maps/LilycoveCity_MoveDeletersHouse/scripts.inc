@@ -45,7 +45,7 @@ LilycoveCity_MoveDeletersHouse_EventScript_TryForgetMove:: @ 821EAB0
 	compare VAR_RESULT, TRUE
 	goto_if_eq LilycoveCity_MoveDeletersHouse_EventScript_LastMonWithSurf
 	special MoveDeleterForgetMove
-	playfanfare MUS_MOVE_DELETED
+	playfanfare HG_SEQ_ME_WASURE
 	waitfanfare
 	msgbox LilycoveCity_MoveDeletersHouse_Text_MonHasForgottenMove, MSGBOX_DEFAULT
 	releaseall

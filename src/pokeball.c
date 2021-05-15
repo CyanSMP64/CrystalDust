@@ -959,7 +959,7 @@ static void sub_80760F8(struct Sprite *sprite)
     {
         gDoingBattleAnim = FALSE;
         m4aMPlayAllStop();
-        PlaySE(MUS_EVOLVED);
+        PlaySE(HG_SEQ_ME_SHINKAOME);
     }
     else if (sprite->data[4] == 315)
     {

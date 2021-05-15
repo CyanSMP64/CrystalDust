@@ -37,7 +37,7 @@ FortreeCity_Gym_EventScript_WinonaDefeated:: @ 82165FD
 	call FortreeCity_Gym_EventScript_GiveAerialAce
 	closemessage
 	delay 30
-	playfanfare MUS_REGISTER_PHONE
+	playfanfare HG_SEQ_ME_POKEGEAR_REGIST
 	msgbox FortreeCity_Gym_Text_RegisteredWinona, MSGBOX_DEFAULT
 	waitfanfare
 	closemessage

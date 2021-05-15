@@ -1222,8 +1222,8 @@ void GetOnOffBike(u8 transitionFlags)
     {
         PlaySE(SE_BIKE_BELL);
         SetPlayerAvatarTransitionFlags(transitionFlags);
-        Overworld_SetSavedMusic(MUS_CYCLING);
-        Overworld_ChangeMusicTo(MUS_CYCLING);
+        Overworld_SetSavedMusic(HG_SEQ_PL_BICYCLE);
+        Overworld_ChangeMusicTo(HG_SEQ_PL_BICYCLE);
     }
 }
 

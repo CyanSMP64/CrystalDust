@@ -74,7 +74,7 @@ script GoldenrodCity_BillsFamilysHouse_EventScript_Bill_PartyFull {
 
 script GoldenrodCity_BillsFamilysHouse_EventScript_ReceivedEeveeFanfare {
     bufferspeciesname(0, SPECIES_EEVEE)
-	playfanfare(MUS_OBTAIN_ITEM)
+	playfanfare(HG_SEQ_ME_ITEM)
 	message("{PLAYER} received the {STR_VAR_1}\n"
             "from BILL.")
 	waitmessage
@@ -114,7 +114,7 @@ script GoldenrodCity_BillsFamilysHouse_EventScript_BillsSister {
         {
             waitse
             setflag(FLAG_PHONE_CARD_BILL)
-            playfanfare(MUS_REGISTER_PHONE)
+            playfanfare(HG_SEQ_ME_POKEGEAR_REGIST)
             textcolor(MSG_COLOR_SYS)
             msgbox("{PLAYER} recorded BILL's number.")
             waitfanfare

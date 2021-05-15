@@ -71,13 +71,13 @@ script Route31_EventScript_SleepyMan {
                                "You can keep it, and I'll just\n"
                                "take the MAIL.")
                         textcolor(MSG_COLOR_SYS)
-                        playfanfare(MUS_OBTAIN_ITEM)
+                        playfanfare(HG_SEQ_ME_ITEM)
                         message("{PLAYER} handed over the MAIL.")
                     }
                     else // GIFTMON_MATCH
                     {
                         textcolor(MSG_COLOR_SYS)
-                        playfanfare(MUS_OBTAIN_ITEM)
+                        playfanfare(HG_SEQ_ME_ITEM)
                         msgbox("{PLAYER} handed over the POKéMON\n"
                                "holding the MAIL.")
                     }

@@ -39,14 +39,14 @@ NewBarkTown_PlayersHouse_1F_MomEncounter::
 	waitmovement 0
 	applymovement 1, Common_Movement_Delay48
 	waitmovement 0
-	playbgm MUS_MOMS_THEME, 0
+	playbgm HG_SEQ_GS_E_TSURETEKE1, 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFastestDown
 	applymovement 1, NewBarkTown_PlayersHouse_1F_MomWalkToPlayer
 	waitmovement 0
 	delay 20
 	msgbox NewBarkTown_PlayersHouse_1F_MomEncounter_Text_0
 	textcolor MSG_COLOR_PREV
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	message NewBarkTown_PlayersHouse_1F_MomEncounter_Text_1
 	waitfanfare
 	setflag FLAG_SYS_POKEGEAR_GET

@@ -70,7 +70,7 @@ NewBarkTown_ProfessorElmsLab_EventScript_Elm_6:
 NewBarkTown_ProfessorElmsLab_EventScript_Elm_7:
 	msgbox NewBarkTown_ProfessorElmsLab_EventScript_Elm_Text_5
 	textcolor MSG_COLOR_SYS
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare HG_SEQ_ME_ITEM
 	message NewBarkTown_ProfessorElmsLab_EventScript_Elm_Text_6
 	waitmessage
 	waitfanfare
@@ -378,7 +378,7 @@ NewBarkTown_EventScript_PokeBallMain_5:
 	bufferspeciesname 0, VAR_TEMP_2
 	message NewBarkTown_EventScript_PokeBallMain_Text_6
 	waitmessage
-	playfanfare MUS_RG_OBTAIN_KEY_ITEM
+	playfanfare HG_SEQ_ME_SHINKAOME
 	waitfanfare
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	compare VAR_RESULT, YES
@@ -395,7 +395,7 @@ NewBarkTown_EventScript_PokeBallMain_16:
 	textcolor MSG_COLOR_BLUE
 	msgbox NewBarkTown_EventScript_PokeBallMain_Text_7
 	setflag FLAG_PHONE_CARD_ELM
-	playfanfare MUS_REGISTER_PHONE
+	playfanfare HG_SEQ_ME_POKEGEAR_REGIST
 	textcolor MSG_COLOR_PREV
 	msgbox NewBarkTown_EventScript_PokeBallMain_Text_8
 	waitfanfare
