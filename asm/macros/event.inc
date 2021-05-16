@@ -1792,7 +1792,7 @@
 	callstd STD_PUT_ITEM_AWAY
 	.endm
 
-	.macro giveitem_msg msg:req, item:req, amount=1, fanfare=MUS_OBTAIN_ITEM
+	.macro giveitem_msg msg:req, item:req, amount=1, fanfare=HG_SEQ_ME_ITEM
 	additem \item, \amount
 	msgreceiveditem \msg, \item, \amount, \fanfare
 	.endm
@@ -1801,7 +1801,7 @@
 	giveitem_msg \msg, \item, 1, HG_SEQ_ME_WAZA
 	.endm
 
-	.macro msgreceiveditem msg:req, item:req, amount=1, fanfare=MUS_OBTAIN_ITEM
+	.macro msgreceiveditem msg:req, item:req, amount=1, fanfare=HG_SEQ_ME_ITEM
 	loadword 0, \msg
 	setorcopyvar VAR_0x8000, \item
 	setorcopyvar VAR_0x8001, \amount
